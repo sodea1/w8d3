@@ -1,1 +1,42 @@
 /* PHASE 3: Forms */
+
+.input {
+  display: flex;
+  align-items: flex-start;
+}
+
+.input > img {
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.no-clue {
+  margin-left: 20px;
+  width: 900px;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+  
+}
+
+.no-clue [type="text"], [type="submit"], textarea {
+  background-color: aqua;
+  border: 2px solid royalblue;
+}
+
+.thumb:after {
+  content: attr(title);
+  display: none;
+}
+
+.thumb:hover:after {
+  display: block;
+  position: absolute;
+  background-color: #eee;
+  font-size: 12px;
+}
+
+.submission {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}

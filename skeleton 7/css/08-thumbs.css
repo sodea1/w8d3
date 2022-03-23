@@ -1,2 +1,18 @@
-/* PHASE 2: Thumbs */
 
+.prof-friends {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prof-friends > li {
+  display: inline-block;
+  width: 30%;
+}
+
+.thumb:hover {
+  display: block;
+}
+
+.prof-friends img {
+  border: 1px solid black;
+}
